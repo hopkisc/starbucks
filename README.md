@@ -14,6 +14,7 @@ Three datasets were provided
 Initially attempts were made to produce a multilabel classification solution, using estimators available through skearn. A methodology was first used which looked at the final state of the data and performed a train-test split accordingly. A time-based approach was then used to take advantage of the simulated structure of the transcript.
 Once these had both been attempted with limited success, a simplified model was developed to predict whether a customer would respond to at least one offer.
 
+Blog post available here: https://medium.com/@sam.hopkinsoncook/an-attempt-at-latte-ral-thinking-90cf22074672
 
 ## Files 
 
