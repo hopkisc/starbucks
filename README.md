@@ -11,14 +11,15 @@ Three datasets were provided
 - transcript: a record of all the transactions made and offer interactions across the customer base
 
 
-Initially attempts were made to produce a multilabel classification solution, using estimators available through skearn. A methodology was first used which looked at the final state of the data and performed a train-test split accordingly. A time-based approach was then used to take advantage of the simulated structure of the transcript.
-Once these had both been attempted with limited success, a simplified model was developed to predict whether a customer would respond to at least one offer.
+Initially attempts were made to produce a multilabel classification solution, using estimators available through skearn. This approach used each customer as a datapoint and predicted the interaction with each product. A time-based binary classification process was also used. This instead treated each instance of an offer being receieved as a data point, and predicted whether the offer was successfully completed or not. 
 
-Blog post available here: https://medium.com/@sam.hopkinsoncook/an-attempt-at-latte-ral-thinking-90cf22074672
+
+Blog post available here: https://medium.com/@sam.hopkinsoncook/an-attempt-at-latte-ral-thinking-25f1a3833d4a
+
 
 ## Files 
 
-- Starbucks_Capstone_notebook-Copy1.ipynb : An annotated jupiter notebook containing the project description courtesy of Udacity and all the analysis and exploration undergine by myself. 
+- Starbucks_Capstone_notebook-updated.ipynb : An annotated jupiter notebook containing the project description courtesy of Udacity and all the analysis and exploration undergine by myself. 
 
 
 
@@ -31,6 +32,7 @@ Blog post available here: https://medium.com/@sam.hopkinsoncook/an-attempt-at-la
 - seaborn 
 - matplotlib
 - sklearn
+
 
 ## Acknowledgements 
 
